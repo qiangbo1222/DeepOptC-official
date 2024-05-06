@@ -1,0 +1,12 @@
+{
+	"run_type": "scaffold_decorating",
+	"parameters": {
+		"model_path": "ckpt/DeepOptC_checkpoint",
+		"input_scaffold_path": "test.smi",
+		"output_path": "output_new.csv",
+		"logging_path": "log.txt",
+		"batch_size": 4,
+		"number_of_decorations_per_scaffold": 5000,
+		"randomize": true
+	}
+}
