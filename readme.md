@@ -6,13 +6,12 @@
 The official implementation of the algorithm used in 'A molecule generation-oriented lead compound optimization architecture: discovery of potent, selective, oral NLRP3 inflammasome inhibitors' (under review). 
 This is our first public release version, so feel free to open an issue if you meet trouble applying our code.
 
-[Code](https://github.com/qiangbo1222/HierDiff)   [Paper Arxiv](https://arxiv.org/abs/2305.13266)
 
 ![cover](assets/overview.png)
 
 ## Environments
 
-### Install via Conda (Recommended)
+### Install via Conda
 
 ```bash
 # Clone the environment
@@ -24,6 +23,8 @@ pip install --editable .
 # Activate the environment
 conda activate deepoptc
 ```
+
+## Molecule Generation
 We provide the checkpoint within the `ckpt` folder, download first to run the generation code.
 
 To run the generation, first write the spliting smiles as the following form, `test.smi`
@@ -37,6 +38,7 @@ Generate attachment fragments by running:
 python input.py examples/decorate_scaffolds.json
 ```
 
+## Cluster and Score
 To cluster the generated fragments and score them according to Synthesizability, run the following:
 ```bash
 python cluster_score/clustering.py output.csv RA_path output.sdf
