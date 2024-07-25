@@ -1,4 +1,4 @@
-# Coarse-to-Fine: a Hierarchical Diffusion Model for Molecule Generation in 3D
+# Deep-Learning-Driven Discovery of SN3-1, a Potent NLRP3 Inhibitor with Therapeutic Potential for Inflammatory Diseases
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/qiangbo1222/HierDiff/blob/main/LICENSE)
