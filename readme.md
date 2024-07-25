@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/qiangbo1222/HierDiff/blob/main/LICENSE)
 
-The official implementation of the algorithm used in 'A molecule generation-oriented lead compound optimization architecture: discovery of potent, selective, oral NLRP3 inflammasome inhibitors' (under review). 
+The official implementation of the algorithm used in 'Deep-Learning-Driven Discovery of SN3-1, a Potent NLRP3 Inhibitor with Therapeutic Potential for Inflammatory Diseases' (under review). 
 This is our first public release version, so feel free to open an issue if you meet trouble applying our code.
 
 
